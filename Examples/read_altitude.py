@@ -71,7 +71,7 @@ with MSPy(device=serial_port, loglevel='DEBUG', baudrate=115200) as board:
 #        print(board.SENSOR_DATA['altitude'])
             print(board.SENSOR_DATA)
 #        print(board)        
-#            import ipdb ; ipdb.set_trace()
+            import ipdb ; ipdb.set_trace()
 
 # For some msgs there are available specialized methods to read them faster:
 # fast_read_altitude
